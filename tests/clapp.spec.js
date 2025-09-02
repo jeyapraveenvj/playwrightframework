@@ -8,3 +8,9 @@ test('@Web Client App login', async ({ page }) => {
 })
 
 
+
+test('@second Client App login', async ({ page }) => {
+   //js file- Login js, DashboardPage
+   const email = "anshika@gmail.com";
+
+})
