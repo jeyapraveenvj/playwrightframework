@@ -7,7 +7,11 @@ const { test, expect } = require('@playwright/test');
  
 test('@Web Client App login', async ({ page }) => {
    //js file- Login js, DashboardPage
-   const email = "jeya.gmail.com";
+
+   const email = "nikhil@gmail.com";
+
+  
+
    //const productName = 'zara coat 3';
    //const products = page.locator(".card-body");
    await page.goto("https://rahulshettyacademy.com/client");
