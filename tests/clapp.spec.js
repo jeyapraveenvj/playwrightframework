@@ -18,4 +18,11 @@ test('@Web Client App login', async ({ page }) => {
    await page.waitForLoadState('networkidle');
 
 
+
+      const [newPage]=await Promise.all(
+   [
+      context.waitForEvent('page'),//listen for any new page pending,rejected,fulfilled
+      documentLink.click(),
+   
+   ])//new page is opened
 })
