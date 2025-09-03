@@ -24,3 +24,9 @@ test('@second Client App login', async ({ page }) => {
 
 })
 
+
+test('@second Client App login', async ({ page }) => {
+   //js file- Login js, DashboardPage
+   const email = "halt@gmail.com";
+
+})
