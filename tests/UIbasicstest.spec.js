@@ -5,6 +5,8 @@ test('First playwright test' ,async({browser})=>
 
     const context=await browser.newContext()
     const page=await context.newPage()
+    ..docker
+    ..jenkins
     //hi 
     //bye
     await page.goto('https://rahulshettyacademy.com/loginpagepractise')
